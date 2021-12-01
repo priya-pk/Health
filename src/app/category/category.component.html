@@ -1,0 +1,21 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12 mx-auto">
+      <table class="table table-responsive-sm table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor= "let data of category">
+            <td>{{ data._id }}</td>
+            <td>{{ data.title }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
